@@ -7,6 +7,8 @@ tags:
   - terster
 ---
 
+![FoO Iskandar Blog Post](/placeholder.webp)
+
 Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... 
 
 Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... Ini adalah postingan Tester ... 
