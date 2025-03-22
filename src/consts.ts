@@ -5,7 +5,7 @@ export const SITE: Site = {
   DESCRIPTION: "Tentang aku dan Kamu.",
   EMAIL: "fooiskandar@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  NUM_PROJECTS_ON_HOMEPAGE: 0,
 };
 
 export const HOME: Metadata = {
