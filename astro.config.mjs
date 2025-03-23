@@ -21,7 +21,6 @@ export default defineConfig({
   output: 'server',
   adapter: vercel({
     skewProtection: true,
-  },
 });
  
 export default defineConfig({
