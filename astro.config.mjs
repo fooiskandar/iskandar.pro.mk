@@ -17,9 +17,4 @@ export default defineConfig({
       theme: "css-variables",
     },
   },
-  // ...
-  output: 'server',
-  adapter: vercel({
-    skewProtection: true,
-  }),
 });
