@@ -23,7 +23,3 @@ export default defineConfig({
     skewProtection: true,
   }),
 });
- 
-export default defineConfig({
-  
-});
