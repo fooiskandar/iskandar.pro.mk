@@ -6,11 +6,7 @@ tags:
   - Burung Gereja
   - Fauna
   - Kehidupan Satwa
-  - Sejarah Alam
-  - Keanekaragaman Hayati
-  - Simbol Kebudayaan
-  - Peran Hewan dalam Sejarah Manusia
-  - Alam dan Lingkungan
+  - Alam
 ---
 
 ![FoO Iskandar Blog Post](/placeholder.webp)
