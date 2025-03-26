@@ -8,7 +8,14 @@ import partytown from ‘@astrojs/partytown‘;
 // https://astro.build/config
 export default defineConfig({
   site: "https://iskandar.pro.mk",
-  integrations: [sitemap(), mdx(), pagefind()],
+  integrations: [sitemap(), mdx(), pagefind(),
+                partytown({
+                    // Adds dataLayer.push as a forwarding-event.
+                    config: {
+                      forward: ["dataLayer.push"],
+                    },
+                  }),
+                ],
   vite: {
     plugins: [tailwindcss()],
   },
@@ -17,12 +24,4 @@ export default defineConfig({
       theme: "css-variables",
     },
   },
-  integrations: [
-    partytown({
-      // Adds dataLayer.push as a forwarding-event.
-      config: {
-        forward: ["dataLayer.push"],
-      },
-    }),
-  ],
 });
