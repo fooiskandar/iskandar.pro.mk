@@ -8,7 +8,14 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: "https://iskandar.pro.mk",
-  integrations: [sitemap(), mdx(), pagefind(),],
+  integrations: [sitemap(), mdx(), pagefind(),
+  partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
