@@ -12,12 +12,12 @@ export default defineConfig({
     sitemap(),
     mdx(),
     pagefind(),
-    partytown({
+    // partytown({
       // Adds dataLayer.push as a forwarding-event.
-      config: {
-        forward: ["dataLayer.push"],
-      },
-    }),
+      // config: {
+        // forward: ["dataLayer.push"],
+      // },
+    // }),
   ],
   vite: {
     plugins: [tailwindcss()],
