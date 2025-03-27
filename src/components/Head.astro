@@ -84,6 +84,19 @@ const { title, description, image = "/iskandar.png" } = Astro.props;
 </script>
 <!-- End Google Tag Manager -->
 
+<script
+  type="text/partytown"
+  src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID">
+</script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "GA-HG5HMVNWFV");
+</script>
+
 <ClientRouter />
 
 <script is:inline>
