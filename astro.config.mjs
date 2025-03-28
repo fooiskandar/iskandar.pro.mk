@@ -4,6 +4,7 @@ import mdx from "@astrojs/mdx";
 import pagefind from "astro-pagefind";
 import tailwindcss from "@tailwindcss/vite";
 // import partytown from ‘@astrojs/partytown‘;
+import Analytics from '@vercel/analytics/astro'
 
 // https://astro.build/config
 export default defineConfig({
