@@ -4,6 +4,7 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Pagefind from "@components/PageFind.astro";
 import { SITE } from "@consts";
+import Analytics from '@vercel/analytics/astro'
 
 type Props = {
   title: string;
@@ -25,5 +26,6 @@ const { title, description } = Astro.props;
     </main>
     <Footer />
     <Pagefind />
+    <Analytics/>
   </body>
 </html>
